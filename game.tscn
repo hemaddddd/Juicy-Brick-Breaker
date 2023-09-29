@@ -44,9 +44,10 @@ shape = SubResource("1")
 script = ExtResource("6")
 
 [node name="ColorRect" type="ColorRect" parent="Wall_Container/Wall_Top"]
+color = Color(1, 0.921569, 0.721569, 1)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Wall_Container/Wall_Top"]
-position = Vector2(512, -90)
+position = Vector2(556, -90)
 shape = SubResource("2")
 
 [node name="Brick_Container" type="Node2D" parent="."]
