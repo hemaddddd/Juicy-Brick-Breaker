@@ -13,5 +13,7 @@ func _physics_process(_delta):
 
 func hit(_ball):
 	$ColorRect.color = Color8(201,42,42)
-	var wall_sound = get_node("/root/Game/wall_sound")
-	wall_sound.play()
+	var wall_audio = get_node_or_null("/root/Game/Wall_Audio")
+	if wall_audio != null:
+		wall_audio.play()
+	
