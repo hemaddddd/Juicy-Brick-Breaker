@@ -8,7 +8,7 @@
 [ext_resource type="Script" path="res://Wall/Wall.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://do7pdpjxteg8e" path="res://UI/HUD.tscn" id="7"]
 [ext_resource type="PackedScene" uid="uid://r1nm10jeqyta" path="res://UI/Instructions.tscn" id="8"]
-[ext_resource type="Script" path="res://Effects/Fever.gd" id="9"]
+[ext_resource type="Script" path="res://Effects/Camera.gd" id="9"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(200, 1000)
